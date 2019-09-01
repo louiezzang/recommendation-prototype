@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pyyaml = "*"
+numpy = "*"
+pandas = "*"
+sklearn = "*"
+scipy = "*"
+xgboost = "*"
+pyarrow = "*"
+
+tensorflow = "==2.0.0-rc0"
+
+azure-storage-blob = "*"
+dbconnect = "*"
+databricks-connect = ">=5.5.1"
+
+[requires]
+python_version = "3.7"

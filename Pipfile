@@ -13,12 +13,11 @@ sklearn = "*"
 scipy = "*"
 xgboost = "*"
 pyarrow = "*"
-
 tensorflow = "==2.0.0-rc0"
-
 azure-storage-blob = "*"
 dbconnect = "*"
 databricks-connect = ">=5.5.1"
+flask = "*"
 
 [requires]
 python_version = "3.7"

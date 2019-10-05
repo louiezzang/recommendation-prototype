@@ -15,7 +15,7 @@ BATCH_SIZE = 500
 EMBEDDING_SIZE = 128
 EPOCHS = 50
 
-dataset_dir = '/Users/youngguebae/Documents/projects/recommendation-engine/datasets/movielens-small'
+dataset_dir = '/Users/youngguebae/Documents/projects/recommendation-prototype/datasets/movielens-small'
 
 df_ratings = pd.read_csv(f'{dataset_dir}/ratings.csv')
 df_tags = pd.read_csv(f'{dataset_dir}/tags.csv')
